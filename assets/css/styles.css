@@ -203,3 +203,68 @@ p,.hf-fact strong,.hf-fact div>span,.pf-fact-label,.pf-fact-row strong{word-brea
  .hf-hero{min-height:760px;overflow:hidden}.hf-hero-bg{background-position:67% center}.hf-hero-grid{display:block;min-height:690px;padding-top:0}.hf-hero-copy{width:100%;padding:28px 0 0;position:relative;z-index:3}.hf-hero-copy h1{font-size:37px;line-height:1.12;white-space:nowrap}.hf-position{font-size:19px;line-height:1.3}.hf-hero-actions{position:absolute;top:594px;left:0;z-index:5;flex-direction:column;align-items:flex-start;gap:8px}.hf-btn{height:38px;min-width:158px;padding:0 16px;justify-content:space-between}.hf-portrait-wrap{right:-25px;bottom:0;height:500px;width:74%;z-index:2}.hf-portrait{height:485px}.hf-factbar-wrap{position:absolute;left:12px;bottom:92px;width:54%;margin:0;z-index:4}.hf-factbar{display:flex;flex-direction:column;background:rgba(255,255,255,.96);border-radius:12px;padding:5px 8px;box-shadow:0 12px 28px rgba(21,57,93,.12)}.hf-fact{min-height:auto;padding:7px 3px;gap:8px;border:0!important;border-bottom:1px solid #e7edf3!important}.hf-fact:last-child{border-bottom:0!important}.hf-fact-icon{width:25px;height:25px;font-size:13px;border-radius:7px}.hf-fact strong{font-size:11.5px;line-height:1.25}.hf-fact div>span{font-size:9.5px;line-height:1.3;margin-top:2px}.hf-dashboard-section{padding-top:44px}
 }
 @media(max-width:420px){.hf-hero-copy h1{font-size:34px}.hf-factbar-wrap{width:56%}.hf-portrait-wrap{width:72%;right:-32px}.hf-portrait{height:465px}}
+
+/* V3.5 — mobile hero matched to approved reference */
+.hf-fact-icon svg{width:19px;height:19px;display:block}
+@media(max-width:700px){
+  .hf-header{background:#fff;box-shadow:0 2px 12px rgba(16,48,84,.08);border-bottom:1px solid #e6edf5}
+  .hf-header-inner{height:62px;padding:0;gap:0;justify-content:space-between}
+  .hf-brand{gap:8px;min-width:0}
+  .hf-brand-mark{width:28px;height:28px;font-size:14px}
+  .hf-brand-name{font-size:20px;letter-spacing:-.3px}
+  .hf-header-actions{margin-left:auto;display:flex;align-items:center;gap:12px}
+  .hf-search-btn{display:none!important}
+  .hf-icon-btn{display:grid!important;place-items:center;width:36px;height:36px;padding:0;font-size:0;border:0;background:transparent;color:#0a3c78}
+  .hf-icon-btn:before{content:"⌕";font-size:24px;line-height:1;font-family:Arial,sans-serif}
+  .hf-menu-btn{display:grid!important;place-items:center;width:36px;height:36px;padding:0;font-size:22px;color:#0a3c78}
+
+  .hf-hero{min-height:790px;overflow:hidden;background:#eaf5ff}
+  .hf-hero-bg{background-image:linear-gradient(180deg,rgba(255,255,255,.05) 0%,rgba(237,247,255,.08) 58%,rgba(255,255,255,.2) 100%),url('../images/home/hero-parliament.png');background-position:61% center;background-size:cover;filter:saturate(.96) contrast(.99)}
+  .hf-hero:after{height:150px;background:linear-gradient(to top,rgba(255,255,255,.48),transparent)}
+  .hf-hero-grid{display:block;min-height:790px;padding:0;position:relative}
+  .hf-hero-copy{position:absolute;left:0;top:28px;width:100%;padding:0;z-index:4}
+  .hf-eyebrow{font-size:9.5px;letter-spacing:.12em;margin-bottom:12px;color:#0b5dbb;gap:0}
+  .hf-eyebrow:before{display:none}
+  .hf-hero-copy h1{font-size:34px;line-height:1.08;white-space:nowrap;letter-spacing:-.8px;font-weight:700}
+  .hf-position{font-size:17px;line-height:1.25;margin-top:5px;color:#15395f;font-weight:700}
+  .hf-hero-copy p{display:none}
+
+  .hf-portrait-wrap{position:absolute;right:-18px;bottom:160px;width:69%;height:500px;display:flex;align-items:flex-end;justify-content:flex-end;z-index:2;overflow:visible}
+  .hf-portrait{display:block;height:485px;width:auto;max-width:none;object-fit:contain;object-position:right bottom;filter:drop-shadow(0 16px 18px rgba(15,47,81,.13))}
+
+  .hf-hero-actions{position:absolute;left:0;bottom:136px;z-index:6;display:flex;flex-direction:row;gap:8px;margin:0;align-items:center}
+  .hf-btn{height:38px;min-width:auto;padding:0 18px;border-radius:999px;font-size:11.5px;gap:10px;justify-content:center;box-shadow:none}
+  .hf-btn-primary{background:#075fc7;color:#fff;border:1px solid #075fc7}
+  .hf-btn-secondary{background:#fff;color:#143b67;border:1px solid #a9bfd6}
+
+  .hf-factbar-wrap{position:absolute;left:15px;right:15px;bottom:12px;width:auto;margin:0;z-index:7;padding:0}
+  .hf-factbar{display:flex;flex-direction:column;width:100%;background:rgba(255,255,255,.97);border:1px solid #d9e4ef;border-radius:14px;padding:4px 14px;box-shadow:0 9px 24px rgba(17,49,82,.10);overflow:hidden}
+  .hf-fact{display:grid;grid-template-columns:28px minmax(0,1fr);align-items:center;min-height:51px;padding:7px 0;gap:10px;border:0!important;border-bottom:1px solid #e4ebf2!important;background:transparent}
+  .hf-fact:last-child{border-bottom:0!important}
+  .hf-fact-icon{width:27px;height:27px;display:grid;place-items:center;border:0!important;border-radius:0!important;background:transparent!important;color:#0a4b96;margin:0;font-size:0}
+  .hf-fact-icon svg{width:21px;height:21px}
+  .hf-fact>div{display:grid;grid-template-columns:92px minmax(0,1fr);align-items:center;column-gap:10px;min-width:0}
+  .hf-fact strong{font-size:11.5px;line-height:1.35;color:#12365e;font-weight:700;white-space:nowrap}
+  .hf-fact div>span{font-size:10.5px;line-height:1.45;color:#4f6882;margin:0;min-width:0;overflow-wrap:anywhere}
+  .hf-fact:last-child div>span{font-size:9.6px;line-height:1.3}
+  .hf-dashboard-section{padding-top:44px}
+}
+@media(max-width:430px){
+  .container{width:min(100% - 24px,1240px)}
+  .hf-hero{min-height:770px}
+  .hf-hero-grid{min-height:770px}
+  .hf-hero-copy{top:25px}
+  .hf-hero-copy h1{font-size:32px}
+  .hf-position{font-size:16px}
+  .hf-portrait-wrap{right:-29px;bottom:160px;width:72%;height:485px}
+  .hf-portrait{height:470px}
+  .hf-hero-actions{bottom:136px}
+  .hf-btn{padding:0 15px;font-size:11px}
+  .hf-factbar-wrap{left:12px;right:12px;bottom:10px}
+  .hf-factbar{padding-left:12px;padding-right:12px}
+  .hf-fact>div{grid-template-columns:84px minmax(0,1fr);column-gap:8px}
+  .hf-fact strong{font-size:11px}
+  .hf-fact div>span{font-size:10px}
+  .hf-fact:last-child div>span{font-size:9.2px}
+}
+\n\n/* V3.7 — Thai responsive typography and overflow fixes */\nhtml,body{max-width:100%;overflow-x:hidden}\nmain,section,article,header,footer,.container,.article-wrap,.grid,.card,.card-pad,.section-head,.content-layout,.prose,.news-prose,.role-item,.role-group,.pf-copy,.hf-hero-copy{min-width:0;max-width:100%}\nh1,h2,h3,h4,h5,h6,.page-hero h1,.section-head h2,.card h3,.prose h2,.prose h3,.news-article-head h1,.role-group-title h3,.role-item h4,.hf-hero-copy h1,.pf-copy h1{word-break:normal!important;overflow-wrap:anywhere!important;white-space:normal!important;text-wrap:pretty}\np,li,dd,dt,a,span,strong,.btn,.hf-btn,.section-link,.breadcrumb{word-break:normal;overflow-wrap:anywhere;max-width:100%}\n.btn,.hf-btn{text-align:center;white-space:normal;line-height:1.35}\nimg,video,iframe,table{max-width:100%}\n@media(max-width:760px){\n  .page-hero h1{font-size:clamp(30px,9vw,38px);line-height:1.28}\n  .section-head{width:100%}.section-head>div{min-width:0;width:100%}.section-head h2{font-size:clamp(27px,7.6vw,32px);line-height:1.32}\n  .card h3{font-size:20px;line-height:1.48}\n  .prose h2{font-size:27px;line-height:1.42}.prose h3{font-size:21px;line-height:1.48}\n  .news-article-head h1{font-size:clamp(27px,7.7vw,33px);line-height:1.48;letter-spacing:0}\n  .role-group-title h3{font-size:20px;line-height:1.5}.role-item h4{font-size:17px;line-height:1.55}\n  .breadcrumb{display:flex;flex-wrap:wrap;gap:3px 6px;line-height:1.6}\n  .section-link{white-space:normal}\n  .hf-hero-copy h1{white-space:normal!important;max-width:68%;font-size:32px;line-height:1.18}\n  .hf-position{max-width:62%;overflow-wrap:anywhere}\n  .hf-fact strong{white-space:normal!important}\n}\n@media(max-width:430px){\n  .hf-hero-copy h1{font-size:30px;max-width:72%}\n  .hf-position{max-width:68%}\n}\n

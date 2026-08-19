@@ -26,7 +26,7 @@ searchInput?.addEventListener('input',()=>{const q=searchInput.value.trim().toLo
     drawer = document.createElement('nav');
     drawer.className='mobile-drawer';
     drawer.setAttribute('aria-label','เมนูมือถือ');
-    drawer.innerHTML=`<a href="${localPrefix}index.html">หน้าแรก</a><a href="${localPrefix}suwit-kaodee.html">ประวัติ</a><a href="${localPrefix}roles.html">บทบาทและหน้าที่</a><a href="${localPrefix}topics/index.html">ประเด็นการทำงาน</a><a href="${localPrefix}achievements/index.html">ผลงาน</a><a href="${localPrefix}news/index.html">ข่าวสาร</a><a href="${localPrefix}documents/index.html">เอกสาร</a><a href="${localPrefix}timeline.html">Timeline</a><a href="${localPrefix}about.html">เกี่ยวกับ DataLox</a><a href="${localPrefix}contact.html">ติดต่อ</a>`;
+    drawer.innerHTML=`<a href="${localPrefix}index.html">หน้าแรก</a><a href="${localPrefix}suwit-kaodee.html">ประวัติ</a><a href="${localPrefix}roles.html">บทบาทและหน้าที่</a><a href="${localPrefix}topics/index.html">การทำงาน</a><a href="${localPrefix}achievements/index.html">ผลงาน</a><a href="${localPrefix}news/index.html">ข่าวสาร</a><a href="${localPrefix}documents/index.html">เอกสาร</a><a href="${localPrefix}timeline.html">Timeline</a><a href="${localPrefix}about.html">เกี่ยวกับ DataLox</a><a href="${localPrefix}contact.html">ติดต่อ</a>`;
     document.body.appendChild(drawer);
   }
   menuBtn.addEventListener('click',()=>{
