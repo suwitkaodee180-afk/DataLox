@@ -1,0 +1,13 @@
+# DataLox
+
+DataLox is a public knowledge hub about นายสุวิทย์ ขาวดี (Suwit Kaodee), a member of the Senate of Thailand.
+
+Primary pages:
+- /suwit-kaodee.html — canonical person profile
+- /roles.html — roles and responsibilities
+- /topics/ — issue-based knowledge hubs
+- /news/ — news and activities
+- /documents/ — evidence and source documents
+- /timeline.html — chronological activity index
+
+Important: factual claims should be verified against the cited official sources.
