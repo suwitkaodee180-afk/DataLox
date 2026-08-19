@@ -1,0 +1,47 @@
+{
+  "site": {
+    "name": "DataLox",
+    "version": "2.0",
+    "canonicalBase": "https://www.datalox.example",
+    "language": "th-TH"
+  },
+  "person": {
+    "id": "person-suwit-kaodee",
+    "name_th": "นายสุวิทย์ ขาวดี",
+    "name_en": "Suwit Kaodee",
+    "alternate_names": [
+      "สุวิทย์ ขาวดี",
+      "สว.สุวิทย์ ขาวดี"
+    ],
+    "headline": "สมาชิกวุฒิสภา",
+    "member_number": "180",
+    "occupational_group": "กลุ่มผู้ประกอบธุรกิจหรืออาชีพด้านการท่องเที่ยว",
+    "official_source": "https://www.senate.go.th/view/1/senator_v2/TH-TH"
+  },
+  "verified_roles": [
+    {
+      "title": "สมาชิกวุฒิสภา",
+      "organization": "วุฒิสภา",
+      "source": "https://www.senate.go.th/view/1/senator_v2/TH-TH"
+    },
+    {
+      "title": "กรรมาธิการและที่ปรึกษา",
+      "organization": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา วุฒิสภา",
+      "source": "https://www.senate.go.th/view/422/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/%E0%B8%A0%E0%B8%B2%E0%B8%9E-%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/1/TH-TH"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "border-checkpoints",
+      "name": "ด่านชายแดนและการเชื่อมโยงพื้นที่"
+    },
+    {
+      "slug": "southern-tourism",
+      "name": "การท่องเที่ยวภาคใต้และจังหวัดสตูล"
+    },
+    {
+      "slug": "digital-economy",
+      "name": "Digital, Data Center และ AI"
+    }
+  ]
+}
