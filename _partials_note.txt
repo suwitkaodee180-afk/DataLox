@@ -1,0 +1,2 @@
+Prototype V1 uses repeated header/footer HTML per page for zero-build static hosting simplicity.
+When moving to a framework/CMS, convert these to reusable components.
